@@ -9,7 +9,7 @@ function App(){
     localStorage.setItem("tasks", JSON.stringify(tasks));
   });
   const addTask = (task) => {
-    setTasks([...tasks,task])
+    setTasks([...tasks,task]);
 
   }
   return (
