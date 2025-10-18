@@ -17,7 +17,7 @@ export default function App() {
 
   const updateTask = (updatedTask, index) => {
     const newtask = [...tasks];
-     newtask[index] = updatedTask;
+    newtask[index] = updatedTask;
     setTasks(newtask);
   }
 
